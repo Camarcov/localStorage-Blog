@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Post</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/form.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Blog Post</h1>
+        <button id="viewBlogs"> Blogs </button>
+        <button id="darkLight">Dark/Light toggle</a></button>
+    </header>
+    <form action="./blog.html">
+        <div class="userInput">
+            <label for="Username">Username</label>
+            <input type="text" name="Username" id="Username" placeholder="Username" />
+        </div>
+        <div class="userInput">
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title" placeholder="Title your blog" />
+        </div>
+        <div class="userInput" id="blogbox">
+            <label for="content">Content</label>
+            <input type="text" name="content" id="content" placeholder="The content of your blog" />
+        </div>
+        <div id="msg"></div>
+        <button id="submit">Submit your post</button>
+    </form>
+    <footer><a href="https://camarcov.github.io/Portfolio-Template/">View my Portfolio</footer>
+    <script src="assets/js/form.js"></script>
+</body>
+
+</html>

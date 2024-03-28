@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --light: #fefae0;
+    --dark: #001d3d;
+
+    --foreground: var(--dark);
+    --background: var(--light);
+}
+
+
+.darkmode {
+    --light: #fefae0;
+    --dark: #001d3d;
+
+    --foreground: var(--light);
+    --background: var(--dark);
+}
+
+body {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: var(--background);
+    color: var(--foreground)
+}
+
+header {
+    display: flex;
+    background-color: rgb(134, 102, 62);
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 auto;
+    height: 30px;
+    border: 1px solid black
+}
+
+form {
+    width: 100%;
+    padding: 8px;
+}
+
+input {
+    background-color: aliceblue;
+    border-radius: 5px;
+    border-width: 1px;
+    height: 40px;
+    line-height: 18px;
+    margin: 0;
+    margin-top: 10px;
+    max-width: 100%;
+    padding: 2px 2px 4px 4px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.userInput {
+    margin-top: 6px;
+    margin-bottom: 6px
+}
+
+#submit {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    padding: 6px 6px 6px 6px;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: mediumslateblue;
+    text-decoration: none;
+    font-size: 12px;
+}
