@@ -9,6 +9,9 @@ viewBlogs.addEventListener('click', function(event) {
     window.location.href = "./blog.html"
 })
 
+let blogLists = localStorage.getItem('storedBlog')
+console.log("list of all stored blogs",JSON.parse(blogLists))
+
 document.querySelector('form').addEventListener('submit', function (event) {
     event.preventDefault();
 
